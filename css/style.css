@@ -1,0 +1,573 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+/* Beige (#DDD0C8), dark grey (#323232) */
+.green{
+    color: #4c6444;
+}
+body{
+    color: #323232;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.gr{
+   color: #fdefe6;
+}
+a{
+    text-decoration: none;
+}
+#naslov{
+    position: absolute;
+    top:200px;
+    right:100px;
+    color: black;
+}
+#naslov h1{
+    font-size: 60px;
+    text-align: right;
+    color :#DDD0C8;
+}
+#naslov p{
+    font-size: 34px;
+    text-align: right;
+    color :#DDD0C8;
+    font-weight: bold;
+}
+.dgreen{
+    color:#243020;
+}
+#logo {
+    width: 70px;
+    
+}
+#logo img{
+    width: 100%;
+}
+
+
+nav ul li a{
+    color: #323232;
+}
+
+nav ul .activeL a, nav ul li a:hover{
+    color: #4c6444;
+}
+
+nav ul li{
+    margin-left: 16px;
+    list-style: none;
+    
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.okv{
+    background-color: #c9a38b;
+}
+#menu{
+    align-items: center;
+    width: "100%";
+    
+    padding: 10px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    width: 79%;
+    margin: 0px auto;
+    
+}
+
+#cover{
+    width: 100%;
+    height: 750px;
+    background-image: url("../img/Pozadina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#transparent{
+    width: 100%;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+
+
+/* o meni  */
+#oMeni{
+    transition: 0.3s;
+}
+.naslovOMeni{
+    text-align: center;
+    padding: 25px 0px;
+}
+.naslovOMeni h2{
+    font-size: 32px;
+}
+.red{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.redP{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.redS{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.slikaOMeni, .textOMeni{
+    width:50%;
+}
+.textOMeni p{
+    padding-top:20px;
+    font-size: 17px;
+}
+.textOMeni h3{
+   text-align: center;
+   font-size: 26px;
+}
+.slikaOMeni img{
+    width: 300px;
+    border-radius:  0px 40px 0px 40px;
+    
+}
+.slikaOMeni{
+    text-align: center;
+}
+
+/* Skills*/
+#Services{
+    background-color:#fdefe6 ;
+    margin-top: 20px;
+    padding: 25px 0px;
+    
+}
+.naslovInt h2{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom:15px;
+}
+.ikonaInter i{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background: #4c6444;
+    color: #fff;
+    font-size: 22px;
+    
+    line-height: 40px;
+    border-radius: 50%;
+}
+.inter p{
+    text-align: left;
+    
+}
+.inter {
+    text-align: center;
+    width: 30%;
+}
+
+.TekstInter h1,p{
+    padding-top: 10px;
+}
+.TekstInter h3{
+    text-align: center;
+}
+
+
+
+/* skills */
+.minRez{
+    display: flex;
+    justify-content: space-;
+}
+.MySkills{
+    width: 79%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#skills{
+    background-color:#719c62;
+    padding-bottom: 70px;
+}
+.icon i{
+    width: 100px;
+    height: 100px;
+    background: #323232;
+    color: #719c62;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 30%;
+    margin-top: 15px;
+    
+    
+}
+.Snaslov h2{
+    padding-top:15px;
+    text-align: center;
+    font-size: 25px;
+}
+.naslovSkills h1{
+    padding:20px 0px;
+    text-align: center;
+    font-size: 32px;
+    
+    
+}
+.slikaproj{
+    width: 100%;
+}
+.slikaproj img{
+    width: 100%;
+    transition: 0.5s ease-in;
+    
+}
+.slikaproj img:hover{
+    filter:brightness(50%);
+    transition: 0.3s ease-in;
+}
+.proj{
+    width: 48%;
+}
+#projects{
+    width: 100%;
+    margin: auto;
+   
+}
+.red{
+    width: 80%;
+    display: flex;
+    
+}
+.naslovproj h2{
+    padding:40px 0px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+/* contact */
+.redForma
+{
+    display: flex;
+    justify-content: space-between;
+}
+#contact .row{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.form-row{
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #323232;
+}
+
+.form-group-50, .form-group-30, .form-group-20, .address{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-50{
+    width: 49%;
+}
+
+.form-group-30{
+    width: 29%;
+}
+
+.form-group-20{
+    width: 19%;
+}
+
+input[type="text"], select,input[type="email"]{
+    width: 98%;
+    padding: 2% 1%;
+    border: 1px solid #4c6444;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+textarea{
+    width: 98%;
+    height: 130px;
+    padding: 2% 1%;
+    border: 1px solid #4c6444;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    resize: none;
+}
+.gender label{
+    margin-right: 10px;
+}
+
+input[type="button"]{
+    border: none;
+    background-color: #4c6444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: border 0.25s, background 0.25s, color 0.25s;
+}
+
+input[type="button"]:hover{
+    border: 1px solid #4c6444;
+    background: #fff;
+    color: #4c6444;
+}
+
+select{
+    height: 40px;
+    
+}
+.naslovForma h2{
+    padding:40px 0px;
+    text-align: center;
+    font-size: 32px;
+}
+
+footer{
+    
+    padding: 15px 0px;
+    background-color: #4c6444 ;
+
+}
+.ime p{
+    text-align: center;
+    color:#DDD0C8;
+    font-size: 22px;
+}
+
+
+
+
+ @media screen and (max-width: 1025px){
+    #naslov h1{
+        font-size: 40px;
+
+    }
+    #naslov p{
+        font-size: 25px;
+    }
+    #naslov{
+        
+        right: 35px;
+    }
+    body{
+        background-color: white;
+    }
+    .textOMeni p{
+        font-size:15px ;
+    }
+    .proj{
+        width: 48%;
+    }
+ }
+
+    @media screen and (max-width: 769px){
+        #logo{
+            width: 22px;
+        }
+        
+        #naslov h1{
+            font-size: 40px;
+    
+        }
+        #naslov p{
+            font-size: 25px;
+        }
+        #naslov{
+            
+            right: 35px;
+        }
+        body{
+            background-color: white;
+        }
+        .textOMeni p{
+            font-size:15px ;
+        }
+        .inter{
+            width: 48%;
+            
+        }
+        .slikaOMeni img {
+            width: 240px;
+            
+        }
+        .slikaOMeni{
+            align-items: center;
+        }
+        .redS{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    @media screen and (max-width: 809px){
+        #menu{
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 555px)
+    {
+        nav ul li{
+            margin-left: 0px;
+            text-align: center;
+        }
+        nav ul{
+            flex-direction: column;
+        }
+        
+    }
+    @media screen and (max-width: 600px)
+    {
+        .red{
+            flex-direction:column ;
+        }
+        .textOMeni{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 80%;
+
+        }
+        .slikaOMeni{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 80%;
+        }
+        .slikaOMeni img {
+            margin: auto;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 601px)
+    {
+        .redS{
+            flex-direction: column;
+            width: 85%;
+        }
+        .inter{
+            width: 100%;
+            padding-top:25px;
+        }
+    }
+
+    @media screen and (max-width: 570px)
+    {
+        .MySkills{
+            width: 51%;
+            
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+       
+    }
+    
+    
+
+    @media screen and (max-width: 450px)
+    {
+        .MySkills{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 690px)
+    {
+        .redP{
+            flex-direction: column;
+        }
+        .proj{
+            margin: auto;
+            width: 100%;
+        }
+        .redForma{
+            flex-direction: column;
+        }
+        .form-group-50{
+            width: 100%;
+        }
+    }    
+    @media screen and (max-width: 390px)
+    {
+        .MySkills i{
+            width: 70px;
+            height: 70px;
+            background: #323232;
+            color: #719c62;
+            font-size: 40px;
+            text-align: center;
+            line-height: 70px;
+            border-radius: 30%;
+            
+        }
+    }
+    @media screen and (max-width: 332px)
+    {
+        .naslov h1, p{ 
+            text-align: left;
+        }
+    }
+    
+    /* @media screen and (max-width: 594px)
+    {
+        .MySkills{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width: 426px){
+        nav ul{
+            display: grid;
+        }
+        .slikaOMeni img {
+            width: 40px;
+            
+        }
+
+        #menu{
+            display: grid;
+        }
+
+        .MySkills{
+            flex-wrap: wrap;
+        }
+        .logo{
+            width: 100%;
+        }
+        .MySkills{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    } */
