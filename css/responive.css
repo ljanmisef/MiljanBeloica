@@ -1,16 +1,171 @@
-@media all and (max-width: 1025px){
+
+ @media screen and (max-width: 1025px){
     #naslov h1{
         font-size: 40px;
 
     }
     #naslov p{
-        font-size: 20px;
+        font-size: 25px;
     }
     #naslov{
         
-        right: 75px;
+        right: 35px;
+    }
+    body{
+        background-color: white;
+    }
+    .textOMeni p{
+        font-size:15px ;
+    }
+    .proj{
+        width: 48%;
+    }
+ }
+
+    @media screen and (max-width: 769px){
+        #logo{
+            width: 22px;
+        }
+        
+        #naslov h1{
+            font-size: 40px;
+    
+        }
+        #naslov p{
+            font-size: 25px;
+        }
+        #naslov{
+            
+            right: 35px;
+        }
+        body{
+            background-color: white;
+        }
+        .textOMeni p{
+            font-size:15px ;
+        }
+        .inter{
+            width: 48%;
+            
+        }
+        .slikaOMeni img {
+            width: 240px;
+            
+        }
+        .slikaOMeni{
+            align-items: center;
+        }
+        .redS{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    @media screen and (max-width: 809px){
+        #menu{
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 555px)
+    {
+        nav ul li{
+            margin-left: 0px;
+            text-align: center;
+        }
+        nav ul{
+            flex-direction: column;
+        }
+        
+    }
+    @media screen and (max-width: 600px)
+    {
+        .red{
+            flex-direction:column ;
+        }
+        .textOMeni{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 80%;
+
+        }
+        .slikaOMeni{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 80%;
+        }
+        .slikaOMeni img {
+            margin: auto;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 601px)
+    {
+        .redS{
+            flex-direction: column;
+            width: 85%;
+        }
+        .inter{
+            width: 100%;
+            padding-top:25px;
+        }
+    }
+
+    @media screen and (max-width: 570px)
+    {
+        .MySkills{
+            width: 51%;
+            
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+       
     }
     
     
-}
 
+    @media screen and (max-width: 450px)
+    {
+        .MySkills{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 690px)
+    {
+        .redP{
+            flex-direction: column;
+        }
+        .proj{
+            margin: auto;
+            width: 100%;
+        }
+        .redForma{
+            flex-direction: column;
+        }
+        .form-group-50{
+            width: 100%;
+        }
+    }    
+    @media screen and (max-width: 390px)
+    {
+        .MySkills i{
+            width: 70px;
+            height: 70px;
+            background: #323232;
+            color: #719c62;
+            font-size: 40px;
+            text-align: center;
+            line-height: 70px;
+            border-radius: 30%;
+            
+        }
+    }
+    @media screen and (max-width: 332px)
+    {
+        .naslov h1, p{ 
+            text-align: left;
+        }
+    }
