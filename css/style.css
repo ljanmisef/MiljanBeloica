@@ -372,6 +372,28 @@ footer{
     color:#DDD0C8;
     font-size: 22px;
 }
+ @media screen and (max-width: 600px)
+    {
+        .red{
+            flex-direction:column ;
+        }
+        .textOMeni{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 80%;
+
+        }
+        .slikaOMeni{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 80%;
+        }
+        .slikaOMeni img {
+            margin: auto;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+    }
  @media screen and (max-width: 601px)
     {
         .redS{
