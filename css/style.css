@@ -372,6 +372,23 @@ footer{
     color:#DDD0C8;
     font-size: 22px;
 }
+@media screen and (max-width: 809px){
+        #menu{
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 555px)
+    {
+        nav ul li{
+            margin-left: 0px;
+            text-align: center;
+        }
+        nav ul{
+            flex-direction: column;
+        }
+        
+    }
  @media screen and (max-width: 600px)
     {
         .red{
