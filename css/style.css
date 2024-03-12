@@ -372,7 +372,17 @@ footer{
     color:#DDD0C8;
     font-size: 22px;
 }
-
+ @media screen and (max-width: 601px)
+    {
+        .redS{
+            flex-direction: column;
+            width: 85%;
+        }
+        .inter{
+            width: 100%;
+            padding-top:25px;
+        }
+    }
 @media screen and (max-width: 570px)
     {
         .MySkills{
