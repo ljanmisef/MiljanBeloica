@@ -352,6 +352,8 @@ footer{
     
     padding: 15px 0px;
     background-color: #4c6444 ;
+    display: flex;
+    justify-content: space-between;
 
 }
 .ime p{
