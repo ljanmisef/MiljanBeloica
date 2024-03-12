@@ -358,15 +358,15 @@ footer{
 
 }
 .sm i{
-    width: 100px;
-    height: 100px;
+    width:30px;
+    height: 30px;
     background: #323232;
     color: #719c62;
-    font-size: 60px;
+    font-size: 12px;
     text-align: center;
-    line-height: 100px;
+    line-height: 40px;
     border-radius: 30%;
-    margin-top: 15px;
+    
 .ime p{
     text-align: center;
     color:#DDD0C8;
