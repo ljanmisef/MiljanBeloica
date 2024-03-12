@@ -456,7 +456,7 @@ footer{
             flex-wrap: wrap;
         }
     } 
-    @media screen and (max-width: 440px){
+     @media screen and (max-width: 440px){
         .slikaOMeni img{
             border-radius: 0%;
             width: 90%;
@@ -476,6 +476,5 @@ footer{
             display: flex;
             justify-content: space-between;
         }
-        
     }
 
