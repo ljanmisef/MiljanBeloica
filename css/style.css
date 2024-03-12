@@ -372,6 +372,28 @@ footer{
     color:#DDD0C8;
     font-size: 22px;
 }
+@media screen and (max-width: 1025px){
+    #naslov h1{
+        font-size: 40px;
+
+    }
+    #naslov p{
+        font-size: 25px;
+    }
+    #naslov{
+        
+        right: 35px;
+    }
+    body{
+        background-color: white;
+    }
+    .textOMeni p{
+        font-size:15px ;
+    }
+    .proj{
+        width: 48%;
+    }
+ }
 @media screen and (max-width: 769px){
         #logo{
             width: 22px;
