@@ -1,132 +1,5 @@
 
- @media screen and (max-width: 1025px){
-    #naslov h1{
-        font-size: 40px;
-
-    }
-    #naslov p{
-        font-size: 25px;
-    }
-    #naslov{
-        
-        right: 35px;
-    }
-    body{
-        background-color: white;
-    }
-    .textOMeni p{
-        font-size:15px ;
-    }
-    .proj{
-        width: 48%;
-    }
- }
-
-    @media screen and (max-width: 769px){
-        #logo{
-            width: 22px;
-        }
-        
-        #naslov h1{
-            font-size: 40px;
-    
-        }
-        #naslov p{
-            font-size: 25px;
-        }
-        #naslov{
-            
-            right: 35px;
-        }
-        body{
-            background-color: white;
-        }
-        .textOMeni p{
-            font-size:15px ;
-        }
-        .inter{
-            width: 48%;
-            
-        }
-        .slikaOMeni img {
-            width: 240px;
-            
-        }
-        .slikaOMeni{
-            align-items: center;
-        }
-        .redS{
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-    }
-    @media screen and (max-width: 809px){
-        #menu{
-            flex-direction: column;
-        }
-    }
-
-    @media screen and (max-width: 555px)
-    {
-        nav ul li{
-            margin-left: 0px;
-            text-align: center;
-        }
-        nav ul{
-            flex-direction: column;
-        }
-        
-    }
-    @media screen and (max-width: 600px)
-    {
-        .red{
-            flex-direction:column ;
-        }
-        .textOMeni{
-            margin: auto;
-            padding-bottom: 20px;
-            width: 80%;
-
-        }
-        .slikaOMeni{
-            margin: auto;
-            padding-bottom: 20px;
-            width: 80%;
-        }
-        .slikaOMeni img {
-            margin: auto;
-            padding-bottom: 20px;
-            width: 100%;
-        }
-    }
-    @media screen and (max-width: 601px)
-    {
-        .redS{
-            flex-direction: column;
-            width: 85%;
-        }
-        .inter{
-            width: 100%;
-            padding-top:25px;
-        }
-    }
-
-    @media screen and (max-width: 570px)
-    {
-        .MySkills{
-            width: 51%;
-            
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-
-        }
-       
-    }
-    
-    
-
-    @media screen and (max-width: 450px)
+     @media screen and (max-width: 450px)
     {
         .MySkills{
             flex-direction: column;
@@ -168,4 +41,64 @@
         .naslov h1, p{ 
             text-align: left;
         }
+    }
+    
+     @media screen and (max-width: 594px)
+    {
+        .MySkills{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width: 426px){
+        nav ul{
+            display: grid;
+        }
+        .slikaOMeni img {
+            width: 40px;
+            
+        }
+
+        #menu{
+            display: grid;
+        }
+
+        .MySkills{
+            flex-wrap: wrap;
+        }
+        .logo{
+            width: 100%;
+        }
+        .MySkills{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    } 
+    @media screen and (max-width: 440px){
+        .slikaOMeni img{
+            border-radius: 0%;
+            width: 90%;
+        }
+        nav ul li{
+            margin-left: 0px;
+            text-align: center;
+        }
+        nav ul{
+            flex-direction: column;
+        }
+        .okv{
+            margin: auto;
+        }
+        #menu{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
     }
