@@ -373,7 +373,18 @@ footer{
     font-size: 22px;
 }
 
+@media screen and (max-width: 570px)
+    {
+        .MySkills{
+            width: 51%;
+            
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
 
+        }
+       
+    }
 
     @media screen and (max-width: 450px)
     {
